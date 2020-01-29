@@ -285,14 +285,14 @@ import java.util.*;
         } 
         else if(cmd.getCommand().equals("exit")) 
         {
-			System.out.println("Leaving the database, goodbye!");
-			break;
+		System.out.println("Leaving the database, goodbye!");
+		break;
         } 
         else if(cmd.getCommand().equals("")) 
         {}
         else 
         {
-			System.out.println("Invalid Command, try again!");
+		System.out.println("Invalid Command, try again!");
         } 
         if(finalResult) {
                 // ...
@@ -302,17 +302,17 @@ import java.util.*;
     }
     private boolean doHelp() {
         System.out.println("add_coach ID SEASON FIRST_NAME LAST_NAME SEASON_WIN "); 
-	    System.out.println("SEASON_LOSS PLAYOFF_WIN PLAYOFF_LOSS TEAM - add new coach data");
+	System.out.println("SEASON_LOSS PLAYOFF_WIN PLAYOFF_LOSS TEAM - add new coach data");
         System.out.println("add_team ID LOCATION NAME LEAGUE - add a new team");
         System.out.println("print_coaches - print a listing of all coaches");
         System.out.println("print_teams - print a listing of all teams");
         System.out.println("coaches_by_name NAME - list info of coaches with the specified name");
         System.out.println("teams_by_city CITY - list the teams in the specified city");
-	    System.out.println("load_coach FILENAME - bulk load of coach info from a file");
+	System.out.println("load_coach FILENAME - bulk load of coach info from a file");
         System.out.println("load_team FILENAME - bulk load of team info from a file");
         System.out.println("best_coach SEASON - print the name of the coach with the most netwins in a specified season");
         System.out.println("search_coaches field=VALUE - print the name of the coach satisfying the specified conditions");
-		System.out.println("exit - quit the program");        
+	System.out.println("exit - quit the program");        
         return true;
     }
     public static void main(String[] args) {
