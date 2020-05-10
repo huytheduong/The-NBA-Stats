@@ -1,7 +1,7 @@
 Student Id: U****468	
 Name: HUY DUONG
 
-This code is store the coaches information and team information
+This code is store coaches information and team information
 you can use the given file.txt to store all the coaches information and team information or you can add more coaches and team information by typing add_coach or add_team
 
 you can use the project by follow these steps: 
@@ -10,7 +10,7 @@ after that you complile to make sure it run smooth
 to run the project type: javac P1.java
 after that the console will allow you to enter the input.
 
-I run all the test cases and my project meet the project's requirement.
+I run all of the test cases and my project meet the project's requirement.
 
 
 
